@@ -26,8 +26,8 @@ def main():
 
     # Print some statistics about the primes found
     print(f"Found {len(primes)} prime numbers.")
-    print(f"The first 10 primes are: {primes[:100]}")
-    print(f"The last 10 primes are: {primes[-100:]}")
+    print(f"The first 100 primes are: {primes[:100]}")
+    print(f"The last 100 primes are: {primes[-100:]}")
 
 if __name__ == "__main__":
     main()
